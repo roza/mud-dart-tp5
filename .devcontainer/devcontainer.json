@@ -1,0 +1,16 @@
+{
+  "name": "MUD en Dart (TP5)",
+  "image": "dart:stable",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Dart-Code.dart-code"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    },
+    "codespaces": {
+      "openFiles": ["LISEZMOI.md"]
+    }
+  },
+  "postCreateCommand": "dart pub get"
+}
