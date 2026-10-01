@@ -3,13 +3,17 @@
   "image": "dart:stable",
   "customizations": {
     "vscode": {
-      "extensions": ["Dart-Code.dart-code"],
+      "extensions": [
+        "Dart-Code.dart-code"
+      ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
       }
     },
     "codespaces": {
-      "openFiles": ["LISEZMOI.md"]
+      "openFiles": [
+        "LISEZMOI.md"
+      ]
     }
   },
   "postCreateCommand": "dart pub get"

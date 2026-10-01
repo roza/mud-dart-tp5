@@ -19,7 +19,13 @@ Sans Dart sur votre ordinateur, ouvrez **votre** dépôt sur GitHub, puis
 s'ouvre dans le navigateur, avec Dart déjà installé : `dart test`,
 `dart run` et git fonctionnent comme au lycée.
 
-- Pensez à **commiter et pousser** avant de fermer : le codespace est
-  supprimé après une longue inactivité.
-- Arrêtez-le quand vous avez fini (**Codespaces** > **Stop codespace**) :
-  le temps d'utilisation gratuit est limité chaque mois.
+**À la fin de chaque séance : push, puis Stop.**
+
+1. `git status`, puis `git push` : ce qui n'est pas poussé ne reste que
+   dans le codespace.
+2. Arrêtez le codespace : `Ctrl+Maj+P` > **Codespaces: Stop Current
+   Codespace**, ou sur <https://github.com/codespaces> : **…** >
+   **Stop codespace**. Fermer l'onglet ne suffit pas : il continuerait de
+   consommer votre temps gratuit pendant 30 minutes.
+3. Une fois le travail poussé, vous pouvez aussi le supprimer (**…** >
+   **Delete**) : il suffira d'en recréer un la prochaine fois.
